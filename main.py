@@ -44,7 +44,7 @@ def root():
     """Health-check / welcome endpoint."""
     return {
         "message": "📝 Todo List API is running!",
-        "docs": "http://127.0.0.1:8000/docs",
+        "docs": "/docs",
         "version": "1.0.0",
     }
 
